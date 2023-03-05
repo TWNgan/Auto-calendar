@@ -1,42 +1,8 @@
-﻿# col = ['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'AM', 'AN', 'AO', 'AP', 'AQ', 'AR', 'AS', 'AT', 'AU', 'AV', 'AW', 'AX', 'AY', 'AZ', 'BA', 'BB', 'BC', 'BD', 'BE', 'BF', 'BG', 'BH', 'BI', 'BJ', 'BK', 'BL', 'BM', 'BN', 'BO', 'BP', 'BQ', 'BR', 'BS', 'BT', 'BU', 'BV', 'BW', 'BX', 'BY', 'BZ', 'CA', 'CB', 'CC', 'CD', 'CE', 'CF', 'CG']
-# for i in column_field:
-#     for u in range(6,82,8):
-#         strt=i + str(u)
-#         print(strt)
-# list = []
-# u = "Q"
-# i = 1
-# while (ord(u) <= ord("Z")):
-#     list.append(i,u)
-#     u = chr(ord("Q")+i)
-#     i = i + 1 
-    
-# print(list)
-# Geo
-# ICT
-# CHEM
-# C.HIST
-# Econ
-# Phy
-# Bafs
-# 旅款
-# M2
-# 通識6X
-# 通識6Y
-# 通識6Z
-# Eng
-# Chi
-# Math
-# Math School Hall(1:45-5:35)
-# 通識S6
-# Chi  3:30-4:30
-
 from googleapiclient.discovery import build
 import datetime
 import pytz
 import os.path
 from google.oauth2 import service_account
-from google.oauth2.credentials import Credentials
 from googleapiclient.errors import HttpError
 from google.oauth2.service_account import Credentials
 
